@@ -10,17 +10,17 @@
     Ścieżka do pliku wyjściowego HTML. Domyślnie: .\SystemReport.html
 
 .EXAMPLE
-    .\SystemReport_Simplified.ps1
+    .\Get-SystemReport.ps1
     Generuje raport z domyślnymi parametrami
 
 .EXAMPLE
-    .\SystemReport_Simplified.ps1 -OutputPath "C:\Reports\report.html"
+    .\Get-SystemReport.ps1 -OutputPath "C:\Reports\report.html"
     Generuje raport w określonej lokalizacji
 
 .NOTES
-    Author: System Administrator
+    Author: PowerShellZone
     Requires: PowerShell 5.1+, PSWriteHTML module
-    Version: 2.0 Simplified
+    Version: 1.0
 #>
 
 [CmdletBinding()]
